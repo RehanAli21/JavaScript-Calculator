@@ -1,0 +1,90 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+#cal
+{
+    text-align: center;
+    margin-left: 20vw;
+    margin-top: 10vh;
+    padding: 20px 20px;
+    width: 50vw;
+    background-color: rgba(25, 0, 46, .9);
+}
+#operationButton > button
+{
+    margin: 1px 0px;
+}
+.f-width
+{
+    width: 100%;
+}
+.three-width
+{
+    width: 75%;
+}
+.one-width
+{
+    width: 23%;
+}
+.btn-padd
+{
+    padding: 20px 10px;
+    background-color: rgb(25, 0, 46);
+    color: white;
+    font-weight: bolder;
+    border: 2px solid white;
+}
+.btn-padd:active
+{
+    transform: scale(.95);
+}
+#buttons
+{
+    margin: 20px 0px;
+}
+#input > input
+{
+    width: 96%;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 20px;
+}
+#input > #main
+{
+    background-color: rgb(32, 1, 58);
+    border-bottom: 2px solid white;
+    padding: 2%;
+}
+#input > #history
+{
+    background-color: inherit;
+    padding: 10px;
+}
+.inline
+{
+    display: inline-block;
+}
+.two-one
+{
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+}
+.one
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.three
+{
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.four
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
